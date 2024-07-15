@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pixelify Sans', sans-serif; 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+header{
+    background: linear-gradient(to right, purple, black); 
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    position: fixed; 
+    width: 100%; 
+    top: 0;
+    z-index: 1000;
+    transition: background 0.3s ease-in-out; 
+}
+
+header:hover {
+    background: linear-gradient(to right, black, purple); 
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+.button-74 {
+  background-color: black;
+  border: 2px solid purple;
+  border-radius: 30px;
+  box-shadow: blueviolet 2px 2px 0 0;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: violet;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.section{
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)), url(../img/bora.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero{
+  width: 80%;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.hero img{
+  margin: auto;
+  margin-top: auto;
+  display: block;
+  margin-top: 40px;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+
+}
+.hero h1{
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 50px;
+  color: blueviolet ;
+
+}
+.hero h1::after{
+  content: "";
+  height: 3px;
+  width: 225px;
+  background-color: white;
+  display: block;
+  margin: auto;
+}
+.hero h5{
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 50px;
+  color: blueviolet;
+  margin-bottom: 25px;
+}
+
+.hero p{
+  font-size: 15px;
+  color: seashell;
+}
